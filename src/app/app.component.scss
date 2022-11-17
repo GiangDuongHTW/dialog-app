@@ -1,0 +1,15 @@
+@use '~rhenus-material/colors' as colors;
+.matCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 50px;
+    padding: 12px;
+}
+button {
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+.matForm {
+}

@@ -1,0 +1,17 @@
+<div class="flex-container">
+    <div class="flex-item" mat-dialog-title>Edit your text here if you want</div>
+    <div class="flex-item" mat-dialog-content>
+        <mat-form-field class="matInput" appearance="outline">
+            <input matInput [(ngModel)]="data.inputValue" />
+        </mat-form-field>
+    </div>
+    <div class="flex-item" id="buttonClass" mat-dialog-actions>
+        <!-- <button mat-button [mat-dialog-close]="data.inputValue" cdkFocusInitial>update</button> -->
+        <button mat-flat-button color="primary" mat-button (click)="edit()">
+            <span class="material-icons-outlined"> save </span>
+        </button>
+        <button mat-flat-button color="primary" mat-button (click)="onNoClick()">
+            <span class="material-icons-outlined"> highlight_off </span>
+        </button>
+    </div>
+</div>

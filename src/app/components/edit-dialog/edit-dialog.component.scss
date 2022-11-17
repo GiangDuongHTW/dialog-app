@@ -1,0 +1,32 @@
+@use '~rhenus-material/colors' as colors;
+
+.mat-dialog-content {
+    overflow-y: hidden;
+}
+.matInput {
+    width: 300px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-container .flex-item {
+    display: flex;
+    align-items: center;
+}
+#buttonClass {
+    float: reight;
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: flex-end;
+}
+button {
+    margin: 5px;
+}
